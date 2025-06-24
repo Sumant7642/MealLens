@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -17,6 +16,7 @@ import Community from "./pages/Community";
 import CommunityDetails from "./pages/CommunityDetails";
 import UserRecipes from "./pages/UserRecipes";
 import Product from "./pages/Product";
+import Meals from "./pages/Meals";
 import UserDashboard from "./pages/UserDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
 import NotFound from "./pages/NotFound";
@@ -44,6 +44,7 @@ const App = () => (
                 <Route path="/community/:category" element={<CommunityDetails />} />
                 <Route path="/my-recipes" element={<UserRecipes />} />
                 <Route path="/product" element={<Product />} />
+                <Route path="/meals" element={<Meals />} />
                 <Route path="/user-dashboard" element={<UserDashboard />} />
                 <Route path="/admin-dashboard" element={<AdminDashboard />} />
                 <Route path="*" element={<NotFound />} />

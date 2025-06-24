@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -13,6 +12,7 @@ const Navbar = () => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'Product', path: '/product' },
+    { name: 'Meals', path: '/meals' },
     { name: 'Community', path: '/community' },
     { name: 'Company', path: '/company' },
     { name: 'FAQ', path: '/faq' },
